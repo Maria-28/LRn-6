@@ -13,4 +13,6 @@ def fetch_webpage():
     import requests
     webpage = requests.get('https://google.com')
 
+    
+    if __name__ == '__main__':
 fetch_webpage()
