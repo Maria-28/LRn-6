@@ -15,5 +15,7 @@ def fetch_webpage(url):
     webpage = requests.get(url)
     return webpage.text
 
+
+if __name__ == '__main__':
 webpage = fetch_webpage('https://google.com')
 print(webpage)
